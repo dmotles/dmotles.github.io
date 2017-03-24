@@ -20,6 +20,7 @@
 
     function Music(url) {
         var e = document.createElement('audio'), self = this;
+        e.crossOrigin = "anonymous";
         e.style.visibility = 'hidden';
         e.style.display = 'none';
         e.src = url;
