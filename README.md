@@ -24,3 +24,6 @@ Then, open your webbrowser to `http://127.0.0.1:8000`.
 
 You can also run `gulp watch` in a spare terminal window to auto re-concat and re-compile
 any code changes made in `src/js/*`.
+
+
+**NOTE** contents in `js/` are auto-generated from gulp tasks. They are committed to the repo because they have to be to be served by github.io. All 3rd party code is preserved with licenses and attribution intact.
