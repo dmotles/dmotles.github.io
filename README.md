@@ -7,6 +7,20 @@ A fun interactive javascript experiment.
 
 I apologize if you don’t like the music. I really like happy fun dance music.
 
-Recruiters/Tech people: Forgive the sparseness of my repo. I do work at Amazon, after all.
 
-I do have permission to work on this project, though.
+## DEV
+
+Requirements are:
+* npm/node installed. I’m using NPM 4.2.0 and node v7.8.0
+* gulp CLI. You can install with `npm install gulp-cli -g`.
+
+```bash
+npm install
+gulp
+gulp server
+```
+
+Then, open your webbrowser to `http://127.0.0.1:8000`.
+
+You can also run `gulp watch` in a spare terminal window to auto re-concat and re-compile
+any code changes made in `src/js/*`.

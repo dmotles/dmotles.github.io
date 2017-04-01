@@ -1,0 +1,25 @@
+{
+  "name": "dmotles-github-io",
+  "description": "A toy webpage",
+  "version": "1.0.0",
+  "homepage": "http://dmotles.github.io",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Motles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmotles/dmotles.github.io.git"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20170218.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "three": "^0.84.0",
+    "underscore": "^1.8.3"
+  }
+}
